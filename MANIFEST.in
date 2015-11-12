@@ -1,0 +1,8 @@
+include LICENSE
+include README.rst
+include config.py
+recursive-include ./bin *
+prune *.pyc
+recursive-include fab_addon_audit/static *
+recursive-include fab_addon_audit/templates *
+recursive-include fab_addon_audit/translations *
