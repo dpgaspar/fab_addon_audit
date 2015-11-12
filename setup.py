@@ -17,7 +17,7 @@ def desc():
     return read('README.rst')
 
 setup(
-    name=addon.FULL_ADDON_NAME,
+    name='fab-addon-audit',
     version=version.VERSION_STRING,
     url='https://github.com/dpgaspar/flask-appbuilder/',
     license='BSD',

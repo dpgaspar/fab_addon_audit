@@ -6,7 +6,7 @@ on any ModelView you choose.
 
 - Install it::
 
-	pip install fab_addon_audit
+	pip install fab-addon-audit
 
 - Use it:
 
