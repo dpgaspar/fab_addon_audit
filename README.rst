@@ -10,6 +10,12 @@ on any ModelView you choose.
 
 - Use it:
 
+On you application add the following key to **config.py**
+
+
+    ADDON_MANAGERS = ['fab_addon_audit.manager.AuditAddOnManager']
+
+
 On your application change your views.py file to import::
 
 
@@ -17,7 +23,6 @@ On your application change your views.py file to import::
 
 
 Then subclass the ModelView's you want to audit from AuditedModelView::
-
 
 
     class ContactModelView(AuditedModelView):
